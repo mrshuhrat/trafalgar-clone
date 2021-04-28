@@ -13,32 +13,32 @@
 
 /* mulish-300 - latin */
 @font-face {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/mulish-v1-latin-300.woff2") format("woff2"),
-    url("../fonts/mulish-v1-latin-300.woff") format("woff");
+  src: url('../fonts/mulish-v1-latin-300.woff2') format('woff2'),
+    url('../fonts/mulish-v1-latin-300.woff') format('woff');
 }
 
 /* mulish-regular - latin */
 @font-face {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/mulish-v1-latin-regular.woff2") format("woff2"),
-    url("../fonts/mulish-v1-latin-regular.woff") format("woff");
+  src: url('../fonts/mulish-v1-latin-regular.woff2') format('woff2'),
+    url('../fonts/mulish-v1-latin-regular.woff') format('woff');
 }
 
 /* mulish-700 - latin */
 @font-face {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/mulish-v1-latin-700.woff2") format("woff2"),
-    url("../fonts/mulish-v1-latin-700.woff") format("woff");
+  src: url('../fonts/mulish-v1-latin-700.woff2') format('woff2'),
+    url('../fonts/mulish-v1-latin-700.woff') format('woff');
 }
 
 
@@ -66,7 +66,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Mulish", "Arial", sans-serif;
+  font-family: 'Mulish', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #7D7987;
@@ -214,7 +214,7 @@ img {
   height: 32px;
   border: none;
   background: none;
-  background-image: url("../img/open.svg");
+  background-image: url('../img/open.svg');
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
@@ -231,7 +231,7 @@ img {
 .intro__container {
   padding-top: 132px;
   padding-bottom: 132px;
-  background-image: url("../img/intro-img.png");
+  background-image: url('../img/intro-img.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center right;
@@ -270,7 +270,7 @@ img {
 
 .services {
   margin-bottom: 150px;
-  background-image: url("../img/services-bg.png");
+  background-image: url('../img/services-bg.png');
   background-repeat: no-repeat;
   background-position: left calc(50% - 200px) center;
 }
@@ -348,34 +348,34 @@ img {
   display: block;
   width: 92px;
   height: 95px;
-  content: "";
+  content: ';
   background-repeat: no-repeat;
   background-position: left center;
 }
 
 .search-doctor::before {
-  background-image: url("../img/lupa.png");
+  background-image: url('../img/lupa.png');
 }
 
 .online-pharmacy::before {
-  background-image: url("../img/online-pharmacy.png");
+  background-image: url('../img/online-pharmacy.png');
 }
 
 .consultation::before {
-  background-image: url("../img/consultation.png");
+  background-image: url('../img/consultation.png');
 }
 
 .details-info::before {
-  background-image: url("../img/details-info.png");
+  background-image: url('../img/details-info.png');
 }
 
 .emergency-care::before {
-  background-image: url("../img/emergency-care.png");
+  background-image: url('../img/emergency-care.png');
 }
 
 
 .tracking::before {
-  background-image: url("../img/tracking.png");
+  background-image: url('../img/tracking.png');
 }
 
 .service__name {
@@ -412,7 +412,7 @@ img {
 .providers__container {
   padding-top: 70px;
   padding-bottom: 50px;
-  background-image: url("../img/providers-img.png");
+  background-image: url('../img/providers-img.png');
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -448,7 +448,7 @@ img {
 .download-app__container {
   padding-top: 70px;
   padding-bottom: 50px;
-  background-image: url("../img/download-app-bg.png");
+  background-image: url('../img/download-app-bg.png');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -487,7 +487,7 @@ img {
   display: flex;
   width: 10px;
   height: 15px;
-  content: "";
+  content: ';
   right: 0;
   background-image: url('../img/download-icon.svg');
   background-size: contain;
@@ -740,7 +740,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   margin-left: 10px;
-  content: "";
+  content: ';
   background-image: url('../img/vector.svg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -933,7 +933,7 @@ img {
   }
 
   .toggler__close {
-    background-image: url("../img/close.svg");
+    background-image: url('../img/close.svg');
   }
 
   .sitenav__list {
